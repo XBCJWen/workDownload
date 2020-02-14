@@ -1,0 +1,14 @@
+1、自行安装python 3.5+
+2、安装所需运行库，
+	pip install pyquery
+	pip install json
+	pip install requests
+	pip install tqdm
+	pip install time
+
+3、如响应返回None值，请参照教程更换Cookie视频
+4、设置IP代理白名单获取使用权，百度IP，复制本地IP后，wapi.http.cnapi.cc/index/index/del_white?neek=71463&appkey=fc6feee4f4c37dc85fb14ebe673b4a51&white=您的ip，然后在浏览器打开，在版本2.0可按照输出信息操作
+5、运行python文件，命令行运行可能较慢
+
+
+注意：爬取速度受VPN稳定性与网速影响，经测试，不稳定的VPN网速宽带速率影响极大，很大影响爬取速度，不稳定的VPN不仅会影响访问外网访问内网也受极大的影响
